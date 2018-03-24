@@ -1,0 +1,82 @@
+.ha img{
+    margin-top:0px;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    animation: dong 10s infinite;
+}
+.la img{
+    margin-top:0px;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    animation: hua 10s infinite;
+}
+#body1{
+    margin-top:475px;
+    width: 25%;
+    height: auto;
+    background-color:white;
+    float: left;
+    color: rgba(70, 70, 70, 0.81);
+    font-size: 30px;
+    font-family:y;
+}
+#body2{
+    margin-top:425px;
+    width: 25%;
+    height: auto;
+    background-color:white;
+    float: left;
+    color: rgba(70, 70, 70, 0.81);
+    font-size: 30px;
+    font-family:fontshui;
+}
+#body3{
+    margin-top:425px;
+    width: 25%;
+    height: auto;
+    background-color: white;
+    float: left;
+    color: rgba(70, 70, 70, 0.81);
+    font-size: 30px;
+    font-family:fontshui;
+}
+#body4{
+    margin-top:425px;
+    width: 25%;
+    height: auto;
+    background-color: white;
+    float: left;
+    color: rgba(70, 70, 70, 0.81);
+    font-size: 30px;
+    font-family:fontshui;
+}
+
+
+@font-face {
+    font-family:"fontshui";
+    src: url('fontshui.otf');
+}
+@font-face {
+    font-family:"y";
+    src: url('y.ttf');
+}
+@keyframes dong{
+    0%{opacity: 10}
+    8%{opacity: 33}
+    24%{opacity: 66}
+    42%{opacity: 100}
+    70%{opacity: 0}
+    85%{opacity: 0}
+    100%{opacity: 5}
+}
+@keyframes hua{
+    0%{opacity: 20}
+    20%{opacity: 0}
+    50%{opacity: 0}
+    65%{opacity: 33}
+    74%{opacity: 66}
+    95%{opacity: 100}
+    100%{opacity: 66}
+}
